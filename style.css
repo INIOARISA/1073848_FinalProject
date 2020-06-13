@@ -1,0 +1,499 @@
+@charset "UTF-8";
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: solid 1px red;*/
+  background-color: #ffefd6;
+  border-top: solid 50px #a151a6;
+}
+
+.Top {
+  position: absolute;
+  height: 150px;
+  width: 800px;
+  background-color: #dcbade;
+  color: #46297d;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: -70px;
+  margin-left: 23%;
+  font-family: 微軟正黑體;
+  text-align: center;
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  left: 100%;
+}
+
+.box1 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  margin-top: -430px;
+  margin-left: 2%;
+  background-color: #fff;
+  font-family: 微軟正黑體;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.name1 {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 80px;
+}
+
+.box1:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+}
+
+.box1:hover .top1 {
+  height: 250px;
+}
+
+.top1 {
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  margin-top: 50px;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-animation: picture1 10s infinite;
+          animation: picture1 10s infinite;
+}
+
+@-webkit-keyframes picture1 {
+  0% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/6.jpg);
+  }
+  10% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/1.jpg);
+  }
+  25% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/2.jpg);
+  }
+  40% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/3.jpg);
+  }
+  60% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/4.jpg);
+  }
+  80% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/5.jpg);
+  }
+  100% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/6.jpg);
+  }
+}
+
+@keyframes picture1 {
+  0% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/6.jpg);
+  }
+  10% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/1.jpg);
+  }
+  25% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/2.jpg);
+  }
+  40% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/3.jpg);
+  }
+  60% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/4.jpg);
+  }
+  80% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/5.jpg);
+  }
+  100% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/6.jpg);
+  }
+}
+.box2 {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  margin-top: -450px;
+  margin-left: 30%;
+  background-color: #fff;
+  font-family: 微軟正黑體;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.name2 {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 180px;
+}
+
+.box2:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+}
+
+.box2:hover .top2 {
+  height: 350px;
+}
+
+.top2 {
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-animation: picture2 10s infinite;
+          animation: picture2 10s infinite;
+}
+
+@-webkit-keyframes picture2 {
+  0% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/10.jpg);
+  }
+  20% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/7.jpg);
+  }
+  50% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/8.jpg);
+  }
+  80% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/9.jpg);
+  }
+  100% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/10.jpg);
+  }
+}
+
+@keyframes picture2 {
+  0% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/10.jpg);
+  }
+  20% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/7.jpg);
+  }
+  50% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/8.jpg);
+  }
+  80% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/9.jpg);
+  }
+  100% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/10.jpg);
+  }
+}
+.box3 {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-top: -430px;
+  margin-left: 72%;
+  background-color: #fff;
+  font-family: 微軟正黑體;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.name3 {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 80px;
+}
+
+.box3:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+}
+
+.box3:hover .top3 {
+  height: 350px;
+}
+
+.top3 {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 50px;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-animation: picture3 10s infinite;
+          animation: picture3 10s infinite;
+}
+
+@-webkit-keyframes picture3 {
+  0% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/11.jpg);
+  }
+  40% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/12.jpg);
+  }
+  100% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/11.jpg);
+  }
+}
+
+@keyframes picture3 {
+  0% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/11.jpg);
+  }
+  40% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/12.jpg);
+  }
+  100% {
+    background-image: url(https://inioarisa.github.io/1073848_FinalProject/11.jpg);
+  }
+}
+.gallery {
+  position: fixed;
+  z-index: 2;
+  width: 150px;
+  height: 50px;
+  bottom: 2%;
+  left: 86%;
+  padding: 0px 20px 30px 20px;
+  overflow: hidden;
+  background-color: #dcbade;
+  color: #46297d;
+  font-family: 微軟正黑體;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  border: solid 5px #7535e8;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.gallery:hover {
+  -webkit-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+  box-shadow: -20px -25px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.rule {
+  position: absolute;
+  width: 1300px;
+  height: 420px;
+  background-color: #dcbade;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 300px;
+  margin-left: 6.5%;
+  color: #46297d;
+  font-family: 微軟正黑體;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+  border: solid 10px #fff;
+}
+
+.allbub {
+  width: 100%;
+  height: 1500px;
+  border-radius: 0px;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@-webkit-keyframes falling {
+  0%,
+    100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
+  }
+}
+@keyframes falling {
+  0%,
+    100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
+  }
+}
+.allbub [class*="bub"] {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  -webkit-animation: falling 0.5s infinite;
+          animation: falling 0.5s infinite;
+}
+.allbub .bub1 {
+  position: absolute;
+  left: 88.2919712867%;
+  top: 2.31173036%;
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
+}
+.allbub .bub2 {
+  position: absolute;
+  left: 11.7533221283%;
+  top: 65.9825425968%;
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.allbub .bub3 {
+  position: absolute;
+  left: 75.0746083808%;
+  top: 19.5301327661%;
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s;
+}
+.allbub .bub4 {
+  position: absolute;
+  left: 53.9522215752%;
+  top: 63.8325034483%;
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+.allbub .bub5 {
+  position: absolute;
+  left: 29.0041225764%;
+  top: 71.841620382%;
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+.allbub .bub6 {
+  position: absolute;
+  left: 33.9045540973%;
+  top: 74.347036458%;
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s;
+}
+.allbub .bub7 {
+  position: absolute;
+  left: 29.3127890561%;
+  top: 77.0641838277%;
+  -webkit-animation-delay: -0.7s;
+          animation-delay: -0.7s;
+}
+.allbub .bub8 {
+  position: absolute;
+  left: 80.2606799766%;
+  top: 70.2271325922%;
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+}
+.allbub .bub9 {
+  position: absolute;
+  left: 88.9488262385%;
+  top: 76.1165964085%;
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+}
+.allbub .bub10 {
+  position: absolute;
+  left: 7.6899486141%;
+  top: 61.2006068183%;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+.allbub .bub11 {
+  position: absolute;
+  left: 18.0289077911%;
+  top: 47.295846041%;
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+}
+.allbub .bub12 {
+  position: absolute;
+  left: 2.2451786736%;
+  top: 45.5284207478%;
+  -webkit-animation-delay: -1.2s;
+          animation-delay: -1.2s;
+}
+.allbub .bub13 {
+  position: absolute;
+  left: 47.1327198812%;
+  top: 45.3517180621%;
+  -webkit-animation-delay: -1.3s;
+          animation-delay: -1.3s;
+}
+.allbub .bub14 {
+  position: absolute;
+  left: 67.2254506537%;
+  top: 79.5314860246%;
+  -webkit-animation-delay: -1.4s;
+          animation-delay: -1.4s;
+}
+.allbub .bub15 {
+  position: absolute;
+  left: 80.5622223143%;
+  top: 80.6760350166%;
+  -webkit-animation-delay: -1.5s;
+          animation-delay: -1.5s;
+}
+.allbub .bub16 {
+  position: absolute;
+  left: 69.4883869418%;
+  top: -6.5834960778%;
+  -webkit-animation-delay: -1.6s;
+          animation-delay: -1.6s;
+}
+.allbub .bub17 {
+  position: absolute;
+  left: 91.2985944035%;
+  top: 0.5024290425%;
+  -webkit-animation-delay: -1.7s;
+          animation-delay: -1.7s;
+}
+.allbub .bub18 {
+  position: absolute;
+  left: 18.5429488882%;
+  top: 69.0792533162%;
+  -webkit-animation-delay: -1.8s;
+          animation-delay: -1.8s;
+}
+.allbub .bub19 {
+  position: absolute;
+  left: 90.2412273902%;
+  top: 66.0199551077%;
+  -webkit-animation-delay: -1.9s;
+          animation-delay: -1.9s;
+}
+.allbub .bub20 {
+  position: absolute;
+  left: 43.3029393249%;
+  top: 52.3915056557%;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+.allbub {
+  -webkit-animation: back 10s infinite;
+          animation: back 10s infinite;
+}
